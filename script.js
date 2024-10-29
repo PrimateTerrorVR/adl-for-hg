@@ -43,6 +43,7 @@ voteButton.style.borderRadius = '5px';
 voteButton.style.transition = 'background-color 0.3s';
 voteButton.onmouseover = () => (voteButton.style.backgroundColor = '#388e3c');
 voteButton.onmouseout = () => (voteButton.style.backgroundColor = '#4caf50');
+voteButton.onclick = () => window.open('https://x.com/StreamerAwards/status/1850976469083963497', '_blank');
 container.appendChild(voteButton);
 
 // Falling Particles Effect
